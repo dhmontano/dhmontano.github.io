@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./stylesheets/style.production.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./images/favicon.ico.ico"/>
+    <!-- Other CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
+    <title>Contact me</title>
+  </head>
+<body>
+<!-- Navigation-->
+<header role="menubar">
+    <img class=" nav-logo" src="./images/logo.png" alt="logo">
+    <nav class="nav-list">
+      <a role="menuitem" href="./index.html">Home</a>
+      <a role="menuitem" href="./work.html">Work</a>
+      <a role="menuitem" href="./about.html" aria-label="Get to know me..">About</a>
+      <a role="menuitem" href="./contact.html">Contact</a>
+    </nav>
+</header>
+   <!-- Contact Info-->
+<div class="contact-wrapper">
+  <div class="contact-info">
+      Denilson Hernandez<br>
+      Los Angeles,<br>
+      California<br>
+      <br>
+      Cell <a href="tel:+18188632394" aria-label="phone">+1(818) 863-2394</a><br>
+      <a href="mailto:lsdaniel427@gmail.com">Email Me Personally</a>
+  </div>
+  <div class="form-wrapper">
+    <form action="" method="post">
+    <div class="form-block">
+      <label for="email-input" class="standard-label">Email: </label>
+      <input  type="email" name="email" id="email-input" required>
+    </div>
+    <div class="form-block">
+      <label class="standard-label" for="form-tel">Telephone: </label>
+      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="form-tel">
+    </div>
+    <div class="form-block">
+      <label class="standard-label" for="form-textarea">Message: </label>
+      <textarea id="form-textarea" required maxlength="240"></textarea>
+    </div>
+    <div class="button-submit">
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
+  </div>
+</div>
+  <!--Footer-->
+  <footer>
+    <div class="footer-text">
+      <p>Find me on:</p>
+    </div>
+    <div class="svg-icons">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/github-2.png" alt="github">
+       <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter-squared.png" alt="twitter">
+       <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin">
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>
