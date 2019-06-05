@@ -20,15 +20,14 @@ body{
 }
 
 /* Nav-Bar */ 
-
-header{
+nav{
   display: flex;
   align-items: center;
   margin: 20px 30px 50px 30px;
   color: var(--main-text-color);
 }
- header:hover,
- header:focus{
+ nav:hover,
+ nav:focus{
   border-bottom: 2px solid;
   border-bottom-color: rgba(102, 102, 102, 0.5);
   transition-duration: 0.5s;
